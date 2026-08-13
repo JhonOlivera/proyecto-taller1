@@ -334,3 +334,30 @@
     font-size:.78rem; color:var(--paper-2); opacity:.6;
     font-family:var(--label);
   }
+
+  /* ---------- cafés de origen ---------- */
+  .origin-grid{
+    display:grid; grid-template-columns:repeat(3, 1fr); gap:28px;
+  }
+  @media (max-width:860px){ .origin-grid{grid-template-columns:1fr;} }
+  .origin-card{
+    background:var(--ink);
+    color:var(--cream);
+    padding:34px 30px;
+    border-radius:2px;
+    border-top:2px solid var(--gold);
+  }
+  .origin-alt{
+    font-family:var(--label); font-size:.76rem; letter-spacing:.1em;
+    text-transform:uppercase; color:var(--gold); margin-bottom:14px;
+  }
+  .origin-card h3{
+    font-family:var(--display); font-weight:600; font-size:1.4rem; margin-bottom:8px;
+  }
+  .origin-process{
+    font-family:var(--label); font-size:.78rem; color:var(--paper-2);
+    opacity:.75; margin-bottom:16px; text-transform:uppercase; letter-spacing:.04em;
+  }
+  .origin-notes{
+    font-size:.92rem; color:var(--paper-2); line-height:1.6;
+  }
